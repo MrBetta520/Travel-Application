@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TravelDBModelStoreContainer" CdmEntityContainer="TravelDBEntities">
+    <EntitySetMapping Name="Flights">
+      <EntityTypeMapping TypeName="TravelDBModel.Flight">
+        <MappingFragment StoreEntitySet="Flight">
+          <ScalarProperty Name="FlightID" ColumnName="FlightID" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="FromCity" ColumnName="FromCity" />
+          <ScalarProperty Name="ToCity" ColumnName="ToCity" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="Childrens" ColumnName="Childrens" />
+          <ScalarProperty Name="Adults" ColumnName="Adults" />
+          <ScalarProperty Name="DepartDate" ColumnName="DepartDate" />
+          <ScalarProperty Name="ReturnDate" ColumnName="ReturnDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRegistrations">
+      <EntityTypeMapping TypeName="TravelDBModel.UserRegistration">
+        <MappingFragment StoreEntitySet="UserRegistration">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="UserRepassword" ColumnName="UserRepassword" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BlogInfoes">
+      <EntityTypeMapping TypeName="TravelDBModel.BlogInfo">
+        <MappingFragment StoreEntitySet="BlogInfo">
+          <ScalarProperty Name="ImagePath" ColumnName="ImagePath" />
+          <ScalarProperty Name="Article" ColumnName="Article" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="BlogID" ColumnName="BlogID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

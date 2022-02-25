@@ -1,0 +1,16 @@
+**************************************************
+Flight type: Round-Trip.
+From: LaGuardia Airport (LGA)
+To: John F Kennedy Intl Airport (JFK)
+Class: First
+Passenger number: 1
+Depart Date: 2/23/2022
+Return Date: 2/24/2022
+**************************************************
+Flight type: Round-Trip.
+From: John F Kennedy Intl Airport (JFK)
+To: Los Angeles Intl Airport (LAX)
+Class: First
+Passenger number: 4
+Depart Date: 2/24/2022
+Return Date: 2/26/2022
